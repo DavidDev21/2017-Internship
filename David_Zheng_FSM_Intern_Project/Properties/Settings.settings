@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="David_Zheng_FSM_Intern_Project.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="sourcePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\dzheng\Desktop\devTestFolder</Value>
+    </Setting>
+    <Setting Name="targetPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\dzheng\Desktop\dummyFolder</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
