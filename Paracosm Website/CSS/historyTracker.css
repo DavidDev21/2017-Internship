@@ -1,0 +1,45 @@
+/* historyTracker CSS file
+	
+	CSS styling for PQS Completed Design List
+
+	Authored: David Zheng;
+	Date: 8/11/2017;
+
+	Dev Note (8/18/2017):
+		I did very minimal CSS so there isn't much in here;
+*/
+
+
+
+#image-preview
+{
+	border: solid;
+	text-align: center;
+	float:right;
+	padding: 0px 20px 20px 20px;
+	margin-right: 4%;
+}
+
+
+img
+{
+	float: right;
+	margin-left: 0px;
+	height: 300px;
+	width: 300px;
+}
+
+#history-table
+{
+	float:left;
+}
+
+td
+{
+	padding: 10px;
+}
+
+.table-row:hover
+{
+	background-color: #b3c7ce;
+}

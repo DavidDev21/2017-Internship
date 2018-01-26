@@ -1,0 +1,153 @@
+/* dev CSS file
+
+	Authored: David Zheng;
+	Date: 7/31/2017;
+
+	Dev Note (8/18/2017): I did very minimal CSS cause who needs beautiful UI when you have beautiful code;
+
+	It's not the outside that matters. (CSS) It's the inside. (PHP)
+*/
+
+
+#image-preview
+{
+	border: solid;
+	text-align: center;
+	float:right;
+	padding: 0px 20px 20px 20px;
+	margin-right:4%;
+}
+
+
+img
+{
+	float: right;
+	margin-left: 0px;
+	height: 300px;
+	width: 300px;
+}
+
+body
+{
+	padding-bottom: 50px;
+}
+
+#page-title
+{
+	text-align: center;
+}
+
+button,#load_previous_queue
+{
+	margin-left: 32.5%;
+}
+
+button
+{
+	background-color: #046380;
+	color: #FFF;
+	border: none;
+	padding: 10px 15px;
+	font-size: 15px;
+	border-radius: 4px;
+	cursor: pointer;
+	outline: none;
+	box-shadow: 2px 2px 0 #034154;
+	margin-bottom: 10px;
+	margin-left: 18px;
+	transition: opacity .4s ease-out, transform .4s ease-out, visibility .4s ease-out;
+	position: relative;
+	top: -10px;
+
+}
+
+button:hover
+{
+	background-color: #034F66;
+}
+
+button:active
+{
+	background-color: #034154;
+	box-shadow: none;
+	position: relative;
+	top: -8px;
+	left: 2px;
+}
+
+#queue-table
+{
+	margin-right:100px;
+}
+
+td
+{
+	padding: .5em;
+}
+
+#submit-btn
+{
+	position: relative;
+}
+
+.input-form
+{
+	padding-bottom:5%;
+	background-color:grey;
+	/*animation: colorchange 5s infinite;
+	-webkit-animation: colorchange 5s infinite;
+	/*padding-left: 40%;*/
+}
+@keyframes colorchange
+{
+0% {background:red;}
+25% {background:pink;}
+50% {background:blue;}
+75% {background:green;}
+100% {background:red;}
+}
+@-webkit-keyframes colorchange
+{
+0% {background:red;}
+25% {background:pink;}
+50% {background:blue;}
+75% {background:green;}
+100% {background:red;}
+}
+
+#input-form-div
+{
+	padding-bottom:10%;
+}
+
+.table-row:hover
+{
+	background-color: #b3c7ce;
+}
+
+#swap-form
+{
+	margin:0;
+	padding-right:30%;
+	float: right;
+}
+
+#filter-form, .input-form
+{
+	margin:0;
+	padding-bottom:10px;
+	width: fit-content;
+}
+
+
+#upload-form
+{
+	margin:0;
+	float: left;
+	padding-left:30%;
+}
+
+#table-name
+{
+	text-align: -webkit-center;
+}
